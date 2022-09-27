@@ -1,0 +1,68 @@
+body{
+    background-color: yellow;
+ 
+}
+.transitionbox{
+
+    margin:10px 10px 10px 500px ;
+}
+    li{
+    width: 100px;
+    height: 100px;
+    background:green;
+    }
+    
+.li1{
+        transition: width 2s ;
+}
+.li1:hover {
+    width: 300px;
+  }
+  .li2{
+    transition: width 2s;
+    transition:  height 4s;
+}
+.li2:hover {
+    width: 300px;
+    height: 300px;
+  }
+  .li3{
+    transition: width 2s;
+    transition-timing-function: linear;
+}
+.li3:hover {
+    width: 300px;
+    
+  }
+  .li4{
+    transition: width 2s;
+    transition-timing-function: ease;
+}
+.li4:hover {
+    width: 300px;
+     }
+     .li5{
+        transition: width 2s;
+        transition-timing-function: ease-in;
+    }
+    .li5:hover {
+        width: 300px;
+         }
+         .li6{
+            transition: width 2s;
+            transition-timing-function: ease-out;
+        }
+        .li6:hover {
+            width: 300px;
+             }
+             .li7{
+                transition: width 2s;
+                transition-timing-function: ease-in-out;
+            }
+            .li7:hover {
+                width: 300px;
+                 }
+                 a{
+                    font-size: 32px;
+                    margin:10px 10px 10px 550px ;
+                 }

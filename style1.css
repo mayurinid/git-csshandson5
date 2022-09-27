@@ -1,0 +1,136 @@
+.container{
+    margin:auto;
+    width: 50%;
+  
+}
+h2{
+  text-align: center;
+}
+.flex-container1{
+    display: flex;
+    flex-grow: row wrap;
+   justify-content: space-around;
+
+}
+.flex-items1{
+    width: 100px;
+    height: 100px;
+    background:rgb(169, 180, 224);
+    animation: flex-items1 2s linear infinite; 
+    }
+   
+    @keyframes flex-items1{
+        0%{
+            transform:skewX(25deg);
+        }
+      
+    
+        100%{
+            transform:skewX(-25deg);
+        }
+    }
+    .flex-container2{
+        display: flex;
+        flex-grow: row wrap;
+       justify-content: space-around;
+    
+    }
+    .flex-items2{
+        width: 100px;
+        height: 100px;
+        background:gray;
+        animation: flex-items2 2s linear infinite; 
+        }
+        @keyframes flex-items2{
+            0%{
+                transform:skewY(25deg);
+            }
+          
+        
+            100%{
+                transform:skewY(-25deg);
+            }
+        }
+        .flex-container3{
+            display: flex;
+            flex-grow: row wrap;
+           justify-content: space-around;
+        
+        }
+        .flex-items3{
+            width: 100px;
+            height: 100px;
+            background:rgb(169, 180, 224);
+            animation: flex-items3 2s linear infinite; 
+            }
+            @keyframes flex-items3{
+                100%{
+                    transform:rotate(360deg);
+                }
+              
+                }
+            .flex-container4{
+                display: flex;
+                flex-grow: row wrap;
+               justify-content: space-around;
+               
+            }
+            #box10{
+                width: 100px;
+                height: 100px;
+                background:rgb(169, 180, 224);
+                animation: box10 20s linear infinite; 
+                
+            }
+             
+            @keyframes box10{
+                0%{
+                    transform:rotateX(60deg);
+                }
+                100%{
+                    transform:rotateX(-60deg);
+                }
+              
+                }
+             
+                #box11{
+                    width: 100px;
+                    height: 100px;
+                    background:brown;
+                    animation: box11 20s linear infinite; 
+                    
+                }
+                 
+                @keyframes box11{
+                    0%{
+                        transform:rotateY(60deg);
+                    }
+                    100%{
+                        transform:rotateY(-60deg);
+                    }
+                  
+                    }
+                 
+              
+
+            #box12{
+                width: 100px;
+                height: 100px;
+                background:rgb(31, 52, 31);
+                animation: box12 20s linear infinite; 
+                
+            }
+             
+            @keyframes box12{
+                0%{
+                    transform:rotate(360deg);
+                }
+                100%{
+                    transform:rotate(-360deg);
+                }
+              
+                }
+                .nxt{
+                    text-align: center;
+                    font-size: 24px;
+                }
